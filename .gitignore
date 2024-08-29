@@ -21,3 +21,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# generated types
+graphql.d.ts
+graphql.schema.json
