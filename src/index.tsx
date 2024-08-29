@@ -3,7 +3,6 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 import Home from "./pages/Home";
-import QueryEx from "./pages/QueryEx";
 import client from "./apollo-client";
 import { ApolloProvider } from "@apollo/client";
 
@@ -16,7 +15,6 @@ root.render(
             <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<Home />} />
-                    <Route path="/" element={<QueryEx />} />
                 </Routes>
             </BrowserRouter>
         </ApolloProvider>
