@@ -12,7 +12,7 @@ const Header = () => {
 
             <ul className="menu">
                 <li className="menuItem">
-                    <a href="/">Ex</a>
+                    <a href="/css">CSS</a>
                 </li>
                 <li className="menuItem">
                     <a href="/">Ex</a>
