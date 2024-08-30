@@ -1,0 +1,14 @@
+.layoutBody {
+    height: 100vh;
+    background-color: var(--color-purple-lilac);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.layoutContainer {
+    width: 90%;
+    height: 90%;
+    background-color: var(--color-white);
+    border-radius: 25px;
+}
