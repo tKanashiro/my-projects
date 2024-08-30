@@ -1,4 +1,4 @@
-import { GET_CATEGORIES } from "../queries/getCategories";
+import { GET_CATEGORIES } from "queries/getCategories";
 import { useQuery } from "@apollo/client";
 
 // import { loadErrorMessages, loadDevMessages } from "@apollo/client/dev";

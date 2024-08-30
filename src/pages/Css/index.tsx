@@ -1,7 +1,7 @@
 import { Fragment } from "react/jsx-runtime";
-import Card from "../../components/Card";
-import gridImage from "../../images/grid.png";
-import Title from "../../components/Title";
+import Card from "components/Card";
+import gridImage from "images/grid.png";
+import Title from "components/Title";
 
 const Css = () => {
     return (

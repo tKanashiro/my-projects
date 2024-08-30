@@ -1,7 +1,7 @@
-import Card from "../../components/Card";
-import Title from "../../components/Title";
-import cssImage from "../../images/css.jpeg";
-import apolloImage from "../../images/apollographql.svg";
+import Card from "components/Card";
+import Title from "components/Title";
+import cssImage from "images/css.jpeg";
+import apolloImage from "images/apollographql.svg";
 
 import "./Home.scss";
 

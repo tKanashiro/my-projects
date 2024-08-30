@@ -2,15 +2,15 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ApolloProvider } from "@apollo/client";
-import Home from "./pages/Home";
 import client from "./apollo-client";
-import Header from "./components/Header";
-import Layout from "./components/Layout/Layout";
+import Header from "components/Header";
+import Layout from "components/Layout/Layout";
+import Home from "pages/Home";
+import Css from "pages/Css";
+import Grid from "pages/Css/Grid";
+import Apollo from "pages/Apollo/index";
 import "./index.css";
-import "./global/_styles.scss";
-import Css from "./pages/Css";
-import Grid from "./pages/Css/Grid";
-import Apollo from "./pages/Apollo/Apollo";
+import "global/_styles.scss";
 
 const root = ReactDOM.createRoot(
     document.getElementById("root") as HTMLElement
