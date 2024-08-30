@@ -10,6 +10,8 @@ import Css from "pages/Css";
 import Grid from "pages/Css/Grid";
 import Apollo from "pages/Apollo/index";
 import QueryEx from "pages/Apollo/QueryEx";
+import Typescript from "pages/Typescript";
+import ReactPage from "pages/React";
 import "./index.css";
 import "global/_styles.scss";
 
@@ -32,6 +34,11 @@ root.render(
                                 path="/apollo/ex-query"
                                 element={<QueryEx />}
                             />
+                            <Route
+                                path="/typescript"
+                                element={<Typescript />}
+                            />
+                            <Route path="/react" element={<ReactPage />} />
                         </Routes>
                     </BrowserRouter>
                 </ApolloProvider>
