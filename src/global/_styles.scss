@@ -9,6 +9,13 @@
     padding: 10px 20px;
 }
 
+.bodyWrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    justify-items: center;
+}
+
 ul {
     margin: 0;
     padding: 0;

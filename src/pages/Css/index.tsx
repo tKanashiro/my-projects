@@ -8,7 +8,9 @@ const Css = () => {
         <Fragment>
             <Title title="Css" />
 
-            <Card title="Grid" link="/css/grid" image={gridImage} />
+            <div className="bodyWrapper">
+                <Card title="Grid" link="/css/grid" image={gridImage} />
+            </div>
         </Fragment>
     );
 };

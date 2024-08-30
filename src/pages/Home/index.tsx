@@ -10,7 +10,7 @@ const Home = () => {
         <div>
             <Title title="Home Page" />
 
-            <div className="homeWrapper">
+            <div className="bodyWrapper">
                 <Card title="CSS" link="/css" image={cssImage} />
                 <Card title="Apollo" link="/apollo" image={apolloImage} />
             </div>

@@ -6,6 +6,7 @@ const Apollo = () => {
             <Title title="Apollo" />
 
             <a href="/apollo/ex-query">Example Query</a>
+            <div className="bodyWrapper">{/* Cards */}</div>
         </div>
     );
 };
