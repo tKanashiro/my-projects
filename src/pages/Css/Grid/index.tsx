@@ -1,5 +1,7 @@
+import Title from "../../../components/Title";
+
 const Grid = () => {
-    return <h1>Grid</h1>;
+    return <Title title="Grid" />;
 };
 
 export default Grid;
