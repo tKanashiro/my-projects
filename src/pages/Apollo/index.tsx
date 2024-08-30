@@ -1,5 +1,13 @@
+import Title from "components/Title";
+
 const Apollo = () => {
-    return <h1>Apollo</h1>;
+    return (
+        <div>
+            <Title title="Apollo" />
+
+            <a href="/apollo/ex-query">Example Query</a>
+        </div>
+    );
 };
 
 export default Apollo;

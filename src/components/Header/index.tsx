@@ -15,7 +15,7 @@ const Header = () => {
                     <a href="/css">CSS</a>
                 </li>
                 <li className="menuItem">
-                    <a href="/">Ex</a>
+                    <a href="/apollo">Apollo</a>
                 </li>
             </ul>
         </div>

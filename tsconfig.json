@@ -17,11 +17,11 @@
         "jsx": "react-jsx",
         "baseUrl": "./src",
         "paths": {
-            "@components/*": ["./components/*"],
-            "@pages/*": ["./pages/*"],
-            "@global/*": ["./global/*"],
-            "@queries/*": ["./queries/*"],
-            "@images/*": ["./images/*"]
+            "components/*": ["./components/*"],
+            "pages/*": ["./pages/*"],
+            "global/*": ["./global/*"],
+            "queries/*": ["./queries/*"],
+            "images/*": ["./images/*"]
         }
     },
     "include": ["src"]

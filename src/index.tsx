@@ -9,6 +9,7 @@ import Home from "pages/Home";
 import Css from "pages/Css";
 import Grid from "pages/Css/Grid";
 import Apollo from "pages/Apollo/index";
+import QueryEx from "pages/Apollo/QueryEx";
 import "./index.css";
 import "global/_styles.scss";
 
@@ -27,6 +28,10 @@ root.render(
                             <Route path="/css" element={<Css />} />
                             <Route path="/css/grid" element={<Grid />} />
                             <Route path="/apollo" element={<Apollo />} />
+                            <Route
+                                path="/apollo/ex-query"
+                                element={<QueryEx />}
+                            />
                         </Routes>
                     </BrowserRouter>
                 </ApolloProvider>
