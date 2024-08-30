@@ -8,6 +8,8 @@ import Header from "./components/Header";
 import Layout from "./components/Layout/Layout";
 import "./index.css";
 import "./global/_styles.scss";
+import Css from "./pages/Css";
+import Grid from "./pages/Css/Grid";
 
 const root = ReactDOM.createRoot(
     document.getElementById("root") as HTMLElement
@@ -21,6 +23,8 @@ root.render(
                     <BrowserRouter>
                         <Routes>
                             <Route path="/" element={<Home />} />
+                            <Route path="/css" element={<Css />} />
+                            <Route path="/css/grid" element={<Grid />} />
                         </Routes>
                     </BrowserRouter>
                 </ApolloProvider>

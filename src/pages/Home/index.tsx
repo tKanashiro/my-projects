@@ -1,5 +1,5 @@
-import Card from "../components/Card";
-import cssImage from "../images/css.jpeg";
+import Card from "../../components/Card";
+import cssImage from "../../images/css.jpeg";
 import "./Home.scss";
 
 const Home = () => {
