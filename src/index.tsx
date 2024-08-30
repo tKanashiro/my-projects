@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ApolloProvider } from "@apollo/client";
@@ -15,7 +15,7 @@ const root = ReactDOM.createRoot(
 root.render(
     <React.StrictMode>
         <Layout>
-            <Fragment>
+            <div className="container">
                 <Header />
                 <ApolloProvider client={client}>
                     <BrowserRouter>
@@ -24,7 +24,7 @@ root.render(
                         </Routes>
                     </BrowserRouter>
                 </ApolloProvider>
-            </Fragment>
+            </div>
         </Layout>
     </React.StrictMode>
 );
