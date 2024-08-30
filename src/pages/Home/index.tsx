@@ -1,14 +1,19 @@
 import Card from "../../components/Card";
 import Title from "../../components/Title";
 import cssImage from "../../images/css.jpeg";
+import apolloImage from "../../images/apollographql.svg";
+
 import "./Home.scss";
 
 const Home = () => {
     return (
-        <div className="homeWrapper">
+        <div>
             <Title title="Home Page" />
 
-            <Card title="CSS" link="/css" image={cssImage} />
+            <div className="homeWrapper">
+                <Card title="CSS" link="/css" image={cssImage} />
+                <Card title="Apollo" link="/apollo" image={apolloImage} />
+            </div>
         </div>
     );
 };
