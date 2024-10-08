@@ -12,6 +12,7 @@ import Apollo from "pages/Apollo/index";
 import QueryEx from "pages/Apollo/QueryEx";
 import Typescript from "pages/Typescript";
 import ReactPage from "pages/React";
+import Scrollspy from "pages/React/Scrollspy";
 import "./index.css";
 import "global/_styles.scss";
 
@@ -39,6 +40,10 @@ root.render(
                                 element={<Typescript />}
                             />
                             <Route path="/react" element={<ReactPage />} />
+                            <Route
+                                path="/react/scrollspy"
+                                element={<Scrollspy />}
+                            />
                         </Routes>
                     </BrowserRouter>
                 </ApolloProvider>
