@@ -1,0 +1,21 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.nav {
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: fixed;
+    top: 50%;
+    left: 1%;
+}
+
+.active-scroll-spy {
+    background-color: yellowgreen;
+    border-radius: 15px;
+}
