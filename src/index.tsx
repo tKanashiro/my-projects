@@ -15,6 +15,7 @@ import ReactPage from "pages/React";
 import Scrollspy from "pages/React/Scrollspy";
 import "./index.css";
 import "global/_styles.scss";
+import A11y from "pages/A11y";
 
 const root = ReactDOM.createRoot(
     document.getElementById("root") as HTMLElement
@@ -44,6 +45,7 @@ root.render(
                                 path="/react/scrollspy"
                                 element={<Scrollspy />}
                             />
+                            <Route path="/a11y" element={<A11y />} />
                         </Routes>
                     </BrowserRouter>
                 </ApolloProvider>

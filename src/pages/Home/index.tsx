@@ -4,6 +4,7 @@ import cssImage from "images/css.jpeg";
 import apolloImage from "images/apollographql.svg";
 import tsImage from "images/TS.png";
 import reactImage from "images/react.svg";
+import a11yImage from "images/a11y.png";
 
 import "./Home.scss";
 
@@ -17,6 +18,7 @@ const Home = () => {
                 <Card title="Apollo" link="/apollo" image={apolloImage} />
                 <Card title="Typescript" link="/typescript" image={tsImage} />
                 <Card title="React" link="/react" image={reactImage} />
+                <Card title="A11y" link="/a11y" image={a11yImage} />
             </div>
         </div>
     );
