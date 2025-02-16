@@ -1,0 +1,79 @@
+.a11yTitle {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.cardsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.cardA11y {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    box-shadow: 0px 0px 15px 12px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: 0 0 0 0 0.25rem;
+        border: 3px solid;
+    }
+}
+
+.imageWrapper {
+    clip-path: polygon(0 0, 100% 0, 100% 97%, 0 calc(100% - 3rem));
+
+    img {
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.a11yBody {
+    width: 90%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    :last-child {
+        margin-top: auto;
+    }
+}
+
+.a11yLink {
+    &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+.readoMore {
+    display: none;
+}
+
+.keyPoints {
+    margin-top: 80px;
+}
+
+.code {
+    background-color: #222;
+    color: white;
+    width: fit-content;
+    padding: 20px;
+}
+
+code {
+    background-color: #222;
+    color: white;
+}
