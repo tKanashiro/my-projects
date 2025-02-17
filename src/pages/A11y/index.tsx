@@ -2,6 +2,7 @@ import Card from "components/Card";
 import Title from "components/Title";
 import { Fragment } from "react/jsx-runtime";
 import CardsImage from "./images/cards.jpg";
+import NotificationsImage from "./images/notifications.jpg";
 
 const A11y = () => {
     return (
@@ -9,6 +10,11 @@ const A11y = () => {
             <Title title="A11y" />
             <div className="bodyWrapper">
                 <Card title="Card" link="/a11y/card" image={CardsImage} />
+                <Card
+                    title="Notifications"
+                    link="/a11y/notifications"
+                    image={NotificationsImage}
+                />
             </div>
         </Fragment>
     );
