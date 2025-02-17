@@ -15,6 +15,7 @@ const A11y = () => {
                     link="/a11y/notifications"
                     image={NotificationsImage}
                 />
+                <Card title="Slider" link="/a11y/slider" image={CardsImage} />
             </div>
         </Fragment>
     );

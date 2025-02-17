@@ -18,6 +18,7 @@ import "global/_styles.scss";
 import A11y from "pages/A11y";
 import Card from "pages/A11y/Card";
 import Notifications from "pages/A11y/Notifications";
+import Slider from "pages/A11y/Slider";
 
 const root = ReactDOM.createRoot(
     document.getElementById("root") as HTMLElement
@@ -53,6 +54,7 @@ root.render(
                                 path="/a11y/notifications"
                                 element={<Notifications />}
                             />
+                            <Route path="/a11y/slider" element={<Slider />} />
                         </Routes>
                     </BrowserRouter>
                 </ApolloProvider>
